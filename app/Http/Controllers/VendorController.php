@@ -50,7 +50,7 @@ class VendorController extends Controller
             'vcname'=>'required|regex:/^[A-Za-z\s]+$/',
             'vaddress'=>'required',
             'vstate'=>'required|regex:/^[A-Za-z\s]+$/',
-            'vphone'=>'required|regex:/^([0-9\s\-\+\(\)]*)$/|min:10|max:10',
+            'vphone'=>'required|regex:/^([0-9\s\-\+\(\)]*)$/|min:10|max:10|unique:vendor_models',
             'vemail'=>'required|email|unique:vendor_models'
         ]);
 
