@@ -23,7 +23,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="about__pic">
-                        <img src="{{ asset('assets/img/hero/hero-2.jpg') }}" alt="">
+                        <img src="{{ asset('/assets/img/hero/hero-2.jpg') }}" alt="">
                     </div>
                 </div>
             </div>
@@ -66,7 +66,7 @@
                         </p>
                         <div class="testimonial__author">
                             <div class="testimonial__author__pic">
-                                <img src="{{ asset('assets/img/product-3.jpg ') }}" alt="">
+                                <img src="{{ asset('/assets/img/product-3.jpg ') }}" alt="">
                             </div>
                             <div class="testimonial__author__text">
                                 <h5>Augusta Schultz</h5>
@@ -76,7 +76,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 p-0">
-                    <div class="testimonial__pic set-bg" data-setbg="{{ asset('assets/img/product-10.jpg ') }}"></div>
+                    <div class="testimonial__pic set-bg" data-setbg="{{ asset('/assets/img/product-10.jpg ') }}"></div>
                 </div>
             </div>
         </div>

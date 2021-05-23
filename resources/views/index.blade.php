@@ -4,7 +4,7 @@
     <section class="hero">
         <div class="hero__slider owl-carousel">
 
-            <div class="hero__items set-bg" data-setbg="assets/img/hero/hero-1.jpg">
+            <div class="hero__items set-bg" data-setbg="/assets/img/hero/hero-1.jpg">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-5 col-lg-7 col-md-8">
@@ -54,7 +54,7 @@
                 <div class="col-lg-7 offset-lg-4">
                     <div class="banner__item">
                         <div class="banner__item__pic">
-                            <img src="assets/img/product-1.jpg" alt="">
+                            <img src="/assets/img/product-1.jpg" alt="">
                         </div>
                         <div class="banner__item__text">
                             <h2>Formal shirt Collection</h2>
@@ -65,7 +65,7 @@
                 <div class="col-lg-5">
                     <div class="banner__item banner__item--middle">
                         <div class="banner__item__pic">
-                            <img src="assets/img/product-3.jpg" alt="">
+                            <img src="/assets/img/product-3.jpg" alt="">
                         </div>
                         <div class="banner__item__text">
                             <h2>Casual Shirt Collection</h2>
@@ -76,7 +76,7 @@
                 <div class="col-lg-7">
                     <div class="banner__item banner__item--last">
                         <div class="banner__item__pic">
-                            <img src="assets/img/product-10.jpg" alt="">
+                            <img src="/assets/img/product-10.jpg" alt="">
                         </div>
                         <div class="banner__item__text">
                             <h2>Variety brands</h2>
@@ -97,12 +97,12 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="instagram__pic">
-                        <div class="instagram__pic__item set-bg" data-setbg="assets/img/product-1.jpg"></div>
-                        <div class="instagram__pic__item set-bg" data-setbg="assets/img/product-3.jpg"></div>
-                        <div class="instagram__pic__item set-bg" data-setbg="assets/img/product-2.jpg"></div>
-                        <div class="instagram__pic__item set-bg" data-setbg="assets/img/product-5.jpg"></div>
-                        <div class="instagram__pic__item set-bg" data-setbg="assets/img/product-4.jpg"></div>
-                        <div class="instagram__pic__item set-bg" data-setbg="assets/img/product-6.jpg"></div>
+                        <div class="instagram__pic__item set-bg" data-setbg="/assets/img/product-1.jpg"></div>
+                        <div class="instagram__pic__item set-bg" data-setbg="/assets/img/product-3.jpg"></div>
+                        <div class="instagram__pic__item set-bg" data-setbg="/assets/img/product-2.jpg"></div>
+                        <div class="instagram__pic__item set-bg" data-setbg="/assets/img/product-5.jpg"></div>
+                        <div class="instagram__pic__item set-bg" data-setbg="/assets/img/product-4.jpg"></div>
+                        <div class="instagram__pic__item set-bg" data-setbg="/assets/img/product-6.jpg"></div>
                     </div>
                 </div>
                 <div class="col-lg-4">

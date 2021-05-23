@@ -12,14 +12,14 @@
         
 
 <!-- Css Styles -->
-<link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}" type="text/css">
-    <link rel="stylesheet" href="{{ asset('assets/css/font-awesome.min.css') }}" type="text/css">
-    <link rel="stylesheet" href="{{ asset('assets/css/elegant-icons.css') }}" type="text/css">
-    <link rel="stylesheet" href="{{ asset('assets/css/magnific-popup.css') }}" type="text/css">
-    <link rel="stylesheet" href="{{ asset('assets/css/nice-select.css') }}" type="text/css">
-    <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.min.css') }}" type="text/css">
-    <link rel="stylesheet" href="{{ asset('assets/css/slicknav.min.css') }}" type="text/css">
-    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('/assets/css/bootstrap.min.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('/assets/css/font-awesome.min.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('/assets/css/elegant-icons.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('/assets/css/magnific-popup.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('/assets/css/nice-select.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('/assets/css/owl.carousel.min.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('/assets/css/slicknav.min.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('/assets/css/style.css') }}" type="text/css">
 </head>
 <body>
 
@@ -33,7 +33,7 @@
             </div>
         </div>
         <div class="offcanvas__nav__option">
-        <a href="#" class="search-switch"><img src="{{ asset('assets/img/icon/search.png') }}" alt=""></a>
+        <a href="#" class="search-switch"><img src="{{ asset('/assets/img/icon/search.png') }}" alt=""></a>
            
         </div>
         <div id="mobile-menu-wrap"></div>
@@ -70,7 +70,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-3">
                     <div class="header__logo">
-                        <a href="/"><img src="{{ asset('assets/img/logo.png') }}" alt=""></a>
+                        <a href="/"><img src="{{ asset('/assets/img/logo.png') }}" alt=""></a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
@@ -106,10 +106,10 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="footer__about">
                         <div class="footer__logo">
-                            <a href="#"><img src="{{ asset('assets/img/logo.png') }}" alt=""></a>
+                            <a href="#"><img src="{{ asset('/assets/img/logo.png') }}" alt=""></a>
                         </div>
                         <p>The customer is at the heart of our unique business model, which includes design.</p>
-                        <a href="#"><img src="{{ asset('assets/img/payment.png') }}" alt=""></a>
+                        <a href="#"><img src="{{ asset('/assets/img/payment.png') }}" alt=""></a>
                     </div>
                 </div>
                 <div class="col-lg-2 offset-lg-1 col-md-3 col-sm-6">
@@ -171,16 +171,16 @@
 
     <!-- Js Plugins -->
 
-    <script src="{{ asset('assets/js/jquery-3.3.1.min.js') }}"></script>
-    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
-    <script src="{{ asset('assets/js/jquery.nice-select.min.js') }}"></script>
-    <script src="{{ asset('assets/js/jquery.nicescroll.min.js') }}"></script>
-    <script src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}"></script>
-    <script src="{{ asset('assets/js/jquery.countdown.min.js') }}"></script>
-    <script src="{{ asset('assets/js/jquery.slicknav.js') }}"></script>
-    <script src="{{ asset('assets/js/mixitup.min.js') }}"></script>
-    <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
-    <script src="{{ asset('assets/js/main.js') }}"></script>
+    <script src="{{ asset('/assets/js/jquery-3.3.1.min.js') }}"></script>
+    <script src="{{ asset('/assets/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('/assets/js/jquery.nice-select.min.js') }}"></script>
+    <script src="{{ asset('/assets/js/jquery.nicescroll.min.js') }}"></script>
+    <script src="{{ asset('/assets/js/jquery.magnific-popup.min.js') }}"></script>
+    <script src="{{ asset('/assets/js/jquery.countdown.min.js') }}"></script>
+    <script src="{{ asset('/assets/js/jquery.slicknav.js') }}"></script>
+    <script src="{{ asset('/assets/js/mixitup.min.js') }}"></script>
+    <script src="{{ asset('/assets/js/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('/assets/js/main.js') }}"></script>
 </body>
 
 </html>
