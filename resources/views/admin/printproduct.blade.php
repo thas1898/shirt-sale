@@ -44,7 +44,7 @@ $date =LoginRegisterController::todaydate();
     <th>SLEEVE</th>
     <th>FIT</th>
     <th>PRICE</th>
-    <th>QUANTITY</th>
+    <th>STOCK</th>
     <th>PRODUCT IMAGE-1</th>
     <th>PRODUCT IMAGE-2</th>
 
