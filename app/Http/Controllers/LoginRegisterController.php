@@ -52,7 +52,7 @@ class LoginRegisterController extends Controller
             'remail'=>'required|email|unique:register_models',
             'raddress'=>'required',
             'rcity'=>'required|regex:/^[A-Za-z\s]+$/',
-            'rstate'=>'required|regex:/^[A-Za-z\s]+$/',
+            'rstate'=>'required|regex:/^[A-Za-z\s]+$/|',
             'rpin'=>'required|regex:/^([0-9\s\-\+\(\)]*)$/|min:6|max:6',
             'rpassword'=>'min:5|max:15|required_with:rcpassword|same:rcpassword|',
             'rcpassword'=>'required|min:5|max:15'
