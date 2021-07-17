@@ -57,7 +57,7 @@ class CategoryController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'cname'=>'required|regex:/^[A-Za-z\s]+$/',
+            'cname'=>'required|regex:/^[A-Za-z\s]+$/|unique:category_models',
         ]);
         $getcname=request('cname');
 
