@@ -46,7 +46,7 @@ $today =OrderController::todaysales();
                 <div class="col-lg-5">
                     <div class="categories__deal__countdown">
                         <span>Mens Shirts</span>
-                        <h2>SHOPPERS STORE</h2>
+                        <h2>SHOPPERS STOP</h2>
                         <a href="/admin/vieworder" class="primary-btn">View Sales </a> <br>
                         <a href="/admin/addproduct" class="primary-btn">Add Products</a> <br>
                         <a href="/admin/addpurchase" class="primary-btn">Make Purchase</a>

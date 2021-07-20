@@ -53,7 +53,8 @@
     </tr>
     <tr>
         <td>Size</td>
-        <td><select class="form-control" aria-label=".form-select-lg example" name="size" placeholder="Select size">
+        <td><select class="form-control" aria-label=".form-select-lg example" name="size" placeholder="Select size"  >
+        <option value="{{ $products->size }}">{{ $products->size }}</option>
         <option value="S">S</option>
         <option value="M">M</option>
         <option value="L">L</option>

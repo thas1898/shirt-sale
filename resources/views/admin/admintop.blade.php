@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
 
-    <title>Shoppers Store</title>
+    <title>Shoppers Stop</title>
 
    <!-- Css Styles -->
     <link rel="stylesheet" href="{{ asset('/assets/css/bootstrap.min.css') }}" type="text/css">

@@ -9,7 +9,7 @@
                     <div class="row">
                         <div class="col-xl-5 col-lg-7 col-md-8">
                             <div class="hero__text">
-                            <h6>SHOPPERS STORE </h6>
+                            <h6>SHOPPERS STOP </h6>
                                 <div class="hero__social">
                                     <a href="#"><i class="fa fa-facebook"></i></a>
                                     <a href="#"><i class="fa fa-twitter"></i></a>
@@ -27,7 +27,7 @@
                         <div class="col-xl-5 col-lg-7 col-md-8">
                             <div class="hero__text">
                                 <h6>MEN'S Shirts</h6>
-                                <h2>SHOPPERS STORE </h2>
+                                <h2>SHOPPERS STOP </h2>
                                 <!--<p>A specialist label creating luxury essentials. Ethically crafted with an unwavering
                                 commitment to exceptional quality.</p> -->
                                 <p>Shoppers stop has a wide range of formal shirts for men, to perfect your work looks. Go the classic route with solid shirts and pin-striped shirts or make your presence felt with micro-printed shirts.</p>

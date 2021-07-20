@@ -18,7 +18,7 @@
                     <div class="row">
                         <div class="col-xl-5 col-lg-7 col-md-8">
                             <div class="hero__text">
-                            <h6>SHOPPERS STORE </h6>
+                            <h6>SHOPPERS STOP </h6>
 
                                 <div class="hero__social">
                                     <a href="#"><i class="fa fa-facebook"></i></a>
