@@ -64,7 +64,7 @@ class BrandController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'bname'=>'required',
+            'bname'=>'required|regex:/^[A-Za-z\s]+$/',
         ]);
 
         $getcid=request('catid');

@@ -46,7 +46,7 @@
     <tr>
         <td>category name</td>
 
-        <td><select class="form-control" aria-label=".form-select-lg example" name="catid">
+        <td><select class="form-select" aria-label=".form-select-lg example" name="catid">
             @foreach($categories as $category)
             <option value="{{ $category->id }}">{{ $category->cname }}</option>
             @endforeach 

@@ -58,7 +58,7 @@
     </tr>
     <tr>
         <td>State</td>
-        <td><select class="form-control" aria-label=".form-select-lg example" name="vstate">
+        <td><select class="form-select" aria-label=".form-select-lg example" name="vstate">
             <option value="Andhra Pradesh">Andhra Pradesh</option>
             <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
             <option value="Arunachal Pradesh">Arunachal Pradesh</option>

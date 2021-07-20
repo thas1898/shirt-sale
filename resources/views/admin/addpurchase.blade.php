@@ -50,7 +50,7 @@
     <table class="table table-dark table-hover">
     <tr>
         <td>Company Name</td>
-        <td><select class="form-control" aria-label="Default select example" name="vendorid">
+        <td><select class="form-select" aria-label="Default select example" name="vendorid">
         <option selected>Select the vendor Company</option>
             @foreach($vendors as $vendor)
             <option value="{{ $vendor->id }}">{{ $vendor->vcname }}</option>
@@ -61,7 +61,7 @@
     <tr>
         <td>Product</td>
         <td>
-            <select class="form-control" aria-label=".form-select-lg example" name="proid">
+            <select class="form-select" aria-label=".form-select-lg example" name="proid">
             @foreach($products as $product)
             <option value="{{ $product->id }}">{{ $product->pname }}</option>
             @endforeach 

@@ -49,7 +49,7 @@
     </tr>
     <tr>
         <td>Category Name</td>
-            <td><select class="form-control" aria-label=".form-select-lg example"  name="catid" id="cats">
+            <td><select class="form-select" aria-label=".form-select-lg example"  name="catid" id="cats">
             @foreach($categories as $category)
             <option value="{{ $category->id }}">{{ $category->cname }}</option>
             @endforeach 
@@ -59,7 +59,7 @@
     <tr>
         <td>Brand Name</td>
         
-        <td><select class="form-control" aria-label=".form-select-lg example" name="brandid" id="brandid" placeholder="Select brand">
+        <td><select class="form-select" aria-label=".form-select-lg example" name="brandid" id="brandid" placeholder="Select brand">
         </select>
         </td>
     </tr>
@@ -71,7 +71,7 @@
     </tr>
     <tr>
         <td>Size</td>
-        <td><select class="form-control" aria-label=".form-select-lg example" name="size" placeholder="Select size">
+        <td><select class="form-select" aria-label=".form-select-lg example" name="size" placeholder="Select size">
         <option value="S">S</option>
         <option value="M">M</option>
         <option value="L">L</option>
@@ -79,7 +79,7 @@
     </tr>
     <tr>
         <td>Sleeve</td>
-        <td><select class="form-control" aria-label=".form-select-lg example" name="sleeve" placeholder="Select sleeve">
+        <td><select class="form-select" aria-label=".form-select-lg example" name="sleeve" placeholder="Select sleeve">
         <option value="Full Sleeve">Full Sleeve</option>
         <option value="Half Sleeve">Half Sleeve</option>
         <option value="Roll-up Sleeve">Roll-up Sleeve</option>
@@ -88,7 +88,7 @@
     </tr>
     <tr>
         <td>Fit</td>
-        <td><select class="form-control" aria-label=".form-select-lg example" name="fit" placeholder="Select fit type">
+        <td><select class="form-select" aria-label=".form-select-lg example" name="fit" placeholder="Select fit type">
         <option value="Regular">Regular</option>
         <option value="Loose">Loose</option>
         <option value="Slim">Slim</option>
